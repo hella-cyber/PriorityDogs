@@ -1,0 +1,8 @@
+C:\Users\derid\source\repos\hella-cyber\PriorityDogs\obj\Debug\net5.0\PriorityDogs.csproj.AssemblyReference.cache
+C:\Users\derid\source\repos\hella-cyber\PriorityDogs\obj\Debug\net5.0\PriorityDogs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\derid\source\repos\hella-cyber\PriorityDogs\obj\Debug\net5.0\PriorityDogs.AssemblyInfoInputs.cache
+C:\Users\derid\source\repos\hella-cyber\PriorityDogs\obj\Debug\net5.0\PriorityDogs.AssemblyInfo.cs
+C:\Users\derid\source\repos\hella-cyber\PriorityDogs\obj\Debug\net5.0\PriorityDogs.csproj.CoreCompileInputs.cache
+C:\Users\derid\source\repos\hella-cyber\PriorityDogs\obj\Debug\net5.0\PriorityDogs.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\derid\source\repos\hella-cyber\PriorityDogs\obj\Debug\net5.0\PriorityDogs.RazorAssemblyInfo.cache
+C:\Users\derid\source\repos\hella-cyber\PriorityDogs\obj\Debug\net5.0\PriorityDogs.RazorAssemblyInfo.cs
