@@ -1,0 +1,67 @@
+﻿@model PriorityDogs.Models.AfsprakenModel
+
+<div class="text-center">
+    <h2>Afspraak Informatie</h2>
+    <p>Indien uw gekozen data beschikbaar is zult u een reactie ontvangen. Indien dit niet mogelijk is zal u een reactie ontvangen met een voorstel voor andere datum.</p>
+    <h5>Indien u een spoedeisende vraag heeft graag bellen indien mogelijk</h5>
+</div>
+<hr />
+<dl class="row">
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.DogOwnerName)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.DogOwnerName)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.LastName)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.LastName)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Adress)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Adress)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Email)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Email)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.MobilePhone)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.MobilePhone)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.AppointmentDate)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.AppointmentDate)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.StressLevel)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.StressLevel)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.StressLevels)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.StressLevels)
+    </dd>
+</dl>
+
+<div>
+    <a asp-action="Index">Terug naar het Overzicht</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
