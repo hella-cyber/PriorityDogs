@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Login\**" />
+    <Content Remove="Views\Login\**" />
+    <EmbeddedResource Remove="Views\Login\**" />
+    <None Remove="Views\Login\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="Controllers\Users.cs" />
   </ItemGroup>
 
